@@ -1,103 +1,95 @@
-# 書籍「Pythonで儲かるAIをつくる」サポートサイト
-
-#### Amazonへのリンク
-[単行本](https://www.amazon.co.jp/dp/4296106961/)  
-[Kindle](https://www.amazon.co.jp/dp/B08F9P726T/)  
+# "역서명" 서포트 사이트 
 
 <div align="left">
 <img src="images/hyoshi.jpg" width="200">
 </div>
 
-　当サイトは、書籍「Pythonで儲かるAIをつくる」のサポートサイトです。  
+　본 저장소는 위키북스에서 출간된 "역서명"의 소스 코드를 제공하는 저장소입니다.
 　
-## 実習用Notebook
+## 실습용 주피터 노트북
  
-　本書の実習用Notebookファイルは、下の「**Notebookファイル一括ダウンロード手順**」に従ってまとめてダウンロードして下さい。なお、本書のNotebookはすべて米Google社の「Google Colaboratory」で動かすことを前提にしています。    
-
-* [Notebookファイル一括ダウンロード手順](refs/download.md)  
+　이 책의 실습용 주피터 노트북 파일은 아래에 있는 "**노트북 파일 일괄 다운로드 방법**"을 통해 한꺼번에 내려받을 수 있습니다. 그리고 이 책의 주피터 노트북 파일은 모두 구글에서 제공하는 "Google Colaboratory" 환경을 전제로 합니다.
+   
+* [노트북 파일 일괄 다운로드 방법](refs/download.md)
  
-* [個別Notebookファイル](refs/notebooks.md)
+* [개별 노트북 파일 설명](refs/notebooks.md)
 
-* [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)
-
-　下の手順に従えば、Notebookをダウンロードすることなく、いきなり動かすことも可能です。個々のファイルがどのような実習内容かについては、[個別Notebookファイル](refs/notebooks.md)を参考にして下さい。
-
-* [実習NotebookをGoogle Colabで動かす方法](https://qiita.com/makaishi2/items/25529634aac508dcd6b0)
-
-## 内容紹介
-
-見込み客、土日の需要、商品リコメンド… 
-営業、マーケティングが劇的に変わる 
-業務に本当に役立つ“儲かるAI”を自分で作る！
-
-* 数学なしでアルゴリズム選びもチューニングもわかる 
-* 現場目線でAIの最適化までできる 
-* ブラウザだけで試せるPython実習（Google Colab） 
-* XGBoost、Prophetなど話題のAI技術を活用 
-* 全PythonコードをGoogle Colab用のNotebook形式で用意 
-＜機械学習のための   Python入門講座＞つき！ 
-
-業務に本当に役立つ“儲かるAI”を作るには 
-「業務目線」と「技術目線」の両方が必要です。 
-
-業務の課題を認識し、どう改善するかという「業務目線」が必要なのは 
-従来システムと同じですが、AIの構築ではさらに 
-業務の課題が本当に AIで解決できるのか、AIのどの処理方式なら適用できそうか 
-という「技術目線」が不可欠なのです。 
-
-本書のPython実習で学ぶことで、「AIの目利きができる技術目線」を獲得し 
-自分でもAIを作れるようになります。 
-
-1章   業務と機械学習プロジェクト  
-2章   機械学習モデルの処理パターン   
-3章   機械学習モデルの開発手順  
-4章   機械学習モデル開発の重要ポイント   
-5章   業務要件と処理パターン  
-・営業成約予測（分類）  
-・天候による売り上げ予測（回帰）   
-・季節などの周期性で売り上げ予測（時系列分析）   
-・お薦め商品の提案（アソシエーション分析）  
-・顧客層に応じた販売戦略（クラスタリング、次元圧縮）   
-6章   AIプロジェクトを成功させる上流工程のツボ  
-
-詳細な目次リンクは、以下になります。  
-
-* [書籍目次](refs/index.md)
-
-## 追加事例やPython入門講座
-本書の中で紹介できなかった2つの事例に基づく実習や、Pythonの入門講座を公開しています。それらを読んでいただければ、本書のイメージがわかるはずです(下の補足資料目次参照)。
+* [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ko)
 
 
-* [補足資料目次](docs/補足資料目次.md)  
+　아래의 순서대로 진행하면 노트북 파일을 내려받지 않고도 바로 실행할 수 있습니다. 각각의 파일에 담긴 실습 내용에 대해서는 [개별 노트북 파일 설명](refs/notebooks.md)을 참고하기 바랍니다.
 
-## 正誤訂正・FAQ
+
+## 내용 소개
+
+방문 고객 수, 주말의 수요, 상품 추천...
+영업, 마케팅이 극적으로 변한다.
+업무에 실제 활용 가능한 "유용한 AI"를 직접 만들어 보자.
+
+* 어려운 수식 없이도 알고리즘을 선택하고 튜닝을 할 수 있다
+* 현장의 시각에서 AI 최적화도 할 수 있다
+* 웹브라우저만으로도 파이썬 실습을 할 수 있다(Google Colab 사용)
+* XGBoost, Prophet 등 최신 AI 기술을 활용한다
+* 모든 예제 코드를 Google Colab에서 실행 가능한 주피터 노트북으로 제공한다
+"머신러닝을 위한 파이썬 입문 강좌"가 부록으로 포함
+
+업무에 실제 활용 가능한 "유용한 AI"를 만들고 싶다면
+"업무 안목"과 "기술적 안목"을 모두 갖춰야 한다.
+
+기존 IT 시스템 도입에서 필요했던 
+업무에서 개선이 필요한 부분을 찾고 개선 방안을 찾는 "업무 안목"과 함께
+AI로 이 문제를 해결할 수 있는지, 어떤 방식을 활용해야 하는지 깨닫는
+"기술적 안목"이 모두 필요하다
+
+
+이 책을 통해 파이썬을 익히고 "AI를 보는 기술적 안목"을 키우면
+누구든지 직접 AI 프로그램을 만들 수 있다.
+
+1장  업무와 머신러닝 프로젝트
+2장  머신러닝 모델의 처리 패턴
+3장  머신러닝 모델을 개발하는 순서
+4장  머신러닝 모델 개발의 중요 포인트
+5장  업무의 요구 조건과 처리 패턴
+・영업 성공 예측(분류)
+・날씨를 이용한 매출 예측(회귀)
+・계절 등 주기성 필드로 매출 예측하기(시계열 분석)
+・추천 상품 제안(연관 분석)
+・계층별 고객 판매 전략(클러스터링, 차원 축소)
+6장  AI 프로젝트를 성공시키기 위한 프로젝트 초기 요령
+
+
+아래에 목차 링크가 있습니다.
+
+* [책의 목차](refs/index.md)
+
+## 추가 사례 및 파이썬 입문 강좌
+미처 책에 답지 못한 두 가지 사례를 통한 실습 및, 파이썬 입문 강좌를 제공합니다. 두 문서를 통해 이 책을 어느 정도 파악하실 수 있으리라 생각합니다(아래의 보충 자로 목차 참조).
+
+* [보충자료목차](docs/補足資料目次.md)  
+
+
+## 정오표 및 FAQ
 
 <!---
 * [Notebook補足情報](notebook-ref.md)
 -->  
 
-* [正誤訂正](refs/errors.md)
+* [정오표](refs/errors.md)
 
 * [FAQ](refs/faqs.md)
 
 
 ***
-## リンク集
+## 관련 링크 모음
 
-|ソース  |タイトルとリンク  |補足|
+|소스  |제목 및 링크  |보충|
 |---|---|---|
-|Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296106961/)||
-|読書メーター|[読書メーター 感想・レビュー](https://bookmeter.com/books/16410328)||
-|twitter|[@makaishi2](https://twitter.com/makaishi2)|著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています。|
-|IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|勤務先のIBMのブログに著者のインタビュー記事が紹介されています。|
-|からあげ様ブログ|[「Pythonで儲かるAI」はビジネス向けの超実践的な機械学習本でした](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
-|NIKKEI STYLE ブックコラム|[AIは緻密な仕事が苦手? 営業で使うのがおすすめな理由](https://style.nikkei.com/article/DGXMZO63178800Y0A820C2000000/)|本書の編集を担当していただた安東様による紹介記事です。|
-|日経クロステック|[Pythonで役立つAIをつくる方法（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|本書の3章の内容を5回に分けて連載した記事です|
-
-<!---
-(ハイブリッド型総合書店 honto) [hontoレビュー](https://honto.jp/netstore/pd-review_0629564342_191.html)
--->  
-
-
+|Amazon|[Amazon 리뷰](https://www.amazon.co.jp/product-reviews/4296106961/)||
+|독서미터|[독서 미터 감상 및 리뷰](https://bookmeter.com/books/16410328)||
+|트위터|[@makaishi2](https://twitter.com/makaishi2)|책과 관련된 트윗을 리트윗을 통해 소개하는데 사용합니다.|
+|IBM Blog|[세 번째 AI 관련 서적을 출간한 IBM의 아카이시 마사노리 씨 인터뷰 "AI와 일, 그리고 집필"](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|저자가 근무 중인 IBM사의 블로그에 저자의 인터뷰가 실려 있습니다.|
+|카라아게님의 블로그|["역서명"은 실무에 유용한 머신러닝 책입니다](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)|AI 관련 유명 블로거인 카라아게님의 서평입니다.|
+|NIKKEI STYLE 북칼럼|[AI에게도 어려운 일이 있다. 영업 업무에 AI 적용을 권하는 이유](https://style.nikkei.com/article/DGXMZO63178800Y0A820C2000000/)|담당 편집자의 책 소개 기사입니다.|
+|닛케이 크로스테크|[Python을 사용해 유용한 AI를 만드는 방법(xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|이 책의 3장에서 다룬 내용을 다섯 번에 걸쳐 연재한 기사입니다.|
 
 ***
